@@ -43,18 +43,20 @@ body {
 	height:20px;
 }
 
-/* #myPic {
-	height: 100%;	
-} */
-
 #myCam {
 	height:100%;
 	max-height: 418px;
 }
 
-.d-block {
-	max-height:888px;
-	min-height:100%;
+.carouselAndAbout {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.carousel-outer {
+	min-height: 400px;
+
 }
 
 #about {
@@ -63,6 +65,7 @@ body {
 	padding:100px;
 	position: relative;
 	width: 100%;
+	flex:1;
 }
 
 .picture.left::before {
