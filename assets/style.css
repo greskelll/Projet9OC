@@ -51,10 +51,7 @@ body {
 	height:100%;
 	max-height: 418px;
 }
-.carousel-inner{
-min-height:150px;
 
-}
 .d-block {
 	max-height:888px;
 	min-height:100%;
