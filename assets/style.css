@@ -363,6 +363,12 @@ input[type="submit"] {
 	.service {
 		max-width: 90%;
 	}
+	#about {
+		height: 1040px;
+	}
+	#myPic{
+		height:auto;
+	}
 	#about, #contact {
 		padding: 2em;
 	}
