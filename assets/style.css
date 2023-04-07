@@ -52,6 +52,11 @@ body {
 	max-height: 418px;
 }
 
+.d-block {
+	max-height:888px;
+	height:100%;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
