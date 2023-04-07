@@ -62,6 +62,7 @@ body {
 	background-color: #F6D2B8;
 	padding:100px;
 	position: relative;
+	width: 100%;
 }
 
 .picture.left::before {
@@ -360,8 +361,7 @@ input[type="submit"] {
 		max-width: 90%;
 	}
 	#about, #contact {
-		padding-inline: 2em;
-		padding-block: 2em;
+		padding: 2em;
 	}
 	form {
 		width: 100%;
