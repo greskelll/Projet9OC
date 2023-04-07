@@ -54,7 +54,7 @@ body {
 
 .d-block {
 	max-height:888px;
-	min-height:220px;
+	min-height:100%;
 }
 
 #about {
