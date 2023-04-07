@@ -48,16 +48,6 @@ body {
 	max-height: 418px;
 }
 
-.carouselAndAbout {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-}
-
-.carousel-outer {
-	min-height: 400px;
-
-}
 
 #about {
 	display: flex;
