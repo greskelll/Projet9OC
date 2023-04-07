@@ -66,7 +66,6 @@ min-height:150px;
 	padding:100px;
 	position: relative;
 	width: 100%;
-	max-height: 888px;
 }
 
 .picture.left::before {
@@ -375,11 +374,18 @@ input[type="submit"] {
 	#about, #contact {
 		padding: 2em;
 	}
+	.about-me__introduction{
+		width:100%;
+	}
 	form {
 		width: 100%;
 	}
 	.picture {
 		width: 80%;
+	}
+	.quote__text {
+		font-size: 1.6em;
+		line-height: 1.2em;
 	}
 }
 
