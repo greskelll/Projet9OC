@@ -40,6 +40,17 @@ body {
 
 .social-link img {
 	width: 20px;
+	height:20px;
+}
+
+#myPic {
+	max-width: 560px;
+	max-height: 560px;
+}
+
+#myCam {
+	max-width:418px;
+	max-height:418px;
 }
 
 #about {
@@ -69,8 +80,6 @@ body {
 
 .picture img {
 	width: 100%;
-	height:auto;
-
 }
 #about-me {
 	flex: 2
