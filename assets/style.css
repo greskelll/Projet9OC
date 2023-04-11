@@ -1,6 +1,8 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
 }
 * {
 	font-family: 'Inter';
@@ -166,7 +168,6 @@ body {
 }
 
 #services {
-	margin: auto;
 	background-color: #A8D5D8 ;
 	position: relative;
 }
@@ -201,7 +202,6 @@ body {
 }
 
 #contact {
-	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
