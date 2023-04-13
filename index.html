@@ -183,6 +183,12 @@
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
+				<section itemscope itemtype="http://schema.org/Person">
+					Bonjour, je m'appelle
+					<span itemprop="name">Nina Carducci</span> et je suis
+					<span itemprop="jobTitle">photographe</span>
+					indépendante.
+				</section>
 				<h3 class="about-me__introduction">
 					Devenir photographe était pour moi une évidence. Comme si
 					j’y étais prédestiné. Saisir un moment, une émotion, une
@@ -345,10 +351,48 @@
 			<div class="container">
 				<div class="form-container">
 					<h3>Une question ? Une demande de devis ?</h3>
+					<div>
+						<section
+							itemprop="address"
+							itemscope
+							itemtype="http://schema.org/PostalAddress"
+						>
+							<span itemprop="streetAddress"
+								>68 avenue Alsace-Lorraine</span
+							>
+							<span itemprop="addressLocality">
+								33200 Bordeaux</span
+							>
+						</section>
+						<section>
+							<span itemprop="telephone"
+								>+ 33 5 56 67 78 89 &#x2706;
+							</span>
+							<div
+								itemprop="hoursAvailable"
+								itemscope
+								itemtype="https://schema.org/OpeningHoursSpecification"
+							>
+								<link
+									itemprop="dayOfWeek"
+									href="http://purl.org/goodrelations/v1#Thursday"
+								/>Je réponds au téléphone du lundi au vendredi
+								de
+								<time itemprop="opens" content="16:00:00">
+									10h00</time
+								>
+								à
+								<time itemprop="closes" content="21:00:00">
+									19h00</time
+								>
+							</div>
+						</section>
+					</div>
 					<p>
 						N’hésitez pas à m’écrire ! Je vous répondrais en moins
 						de 24 heures
 					</p>
+
 					<form action="" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom" />
