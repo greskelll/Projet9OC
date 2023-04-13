@@ -183,6 +183,12 @@
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
+				<section itemscope itemtype="http://schema.org/Person">
+					Bonjour, je m'appelle
+					<span itemprop="name">Nina Carducci</span> et je suis
+					<span itemprop="jobTitle">photographe</span>
+					indépendante.
+				</section>
 				<h3 class="about-me__introduction">
 					Devenir photographe était pour moi une évidence. Comme si
 					j’y étais prédestiné. Saisir un moment, une émotion, une
@@ -267,12 +273,12 @@
 				<figure>
 					<blockquote>
 						<p class="quote__text">
-							Un portrait n’est pas une ressemblance. Dès lors
-							qu’une émotion ou qu’un fait est traduit en photo,
-							il cesse d’être un fait pour devenir une opinion.
-							L’inexactitude n’existe pas en photographie. Toutes
-							les photos sont exactes. Aucune d’elles n’est la
-							vérité.
+							Un <strong>portrait</strong> n’est pas une
+							ressemblance. Dès lors qu’une émotion ou qu’un fait
+							est traduit en photo, il cesse d’être un fait pour
+							devenir une opinion. L’inexactitude n’existe pas en
+							<strong>photographie</strong>. Toutes les photos
+							sont exactes. Aucune d’elles n’est la vérité.
 						</p>
 					</blockquote>
 					<figcaption class="quote__author">
@@ -288,9 +294,9 @@
 					<div class="service__description">
 						<h3>Shooting photo</h3>
 						<p>
-							Pour capturer vos moments les plus précieux et
-							garder un souvenir impérissable. Je me déplace en
-							Île-de-France pour réaliser vos photos
+							Pour <strong>capturer vos moments</strong> les plus
+							précieux et garder un souvenir impérissable. Je me
+							déplace en Île-de-France pour réaliser vos photos
 						</p>
 					</div>
 					<div class="service__price">
@@ -302,9 +308,10 @@
 					<div class="service__description">
 						<h3>Retouches</h3>
 						<p>
-							Vous souhaitez retoucher vos photos pour un résultat
-							professionnel ? Bénéficier d’un rendu optimal pour
-							vos publications
+							Vous souhaitez
+							<strong>retoucher vos photos</strong> pour un
+							<strong>résultat professionnel</strong> ? Bénéficier
+							d’un rendu optimal pour vos publications
 						</p>
 					</div>
 					<div class="service__price">
@@ -344,10 +351,48 @@
 			<div class="container">
 				<div class="form-container">
 					<h3>Une question ? Une demande de devis ?</h3>
+					<div>
+						<section
+							itemprop="address"
+							itemscope
+							itemtype="http://schema.org/PostalAddress"
+						>
+							<span itemprop="streetAddress"
+								>68 avenue Alsace-Lorraine</span
+							>
+							<span itemprop="addressLocality">
+								33200 Bordeaux</span
+							>
+						</section>
+						<section>
+							<span itemprop="telephone"
+								>+ 33 5 56 67 78 89 &#x2706;
+							</span>
+							<div
+								itemprop="hoursAvailable"
+								itemscope
+								itemtype="https://schema.org/OpeningHoursSpecification"
+							>
+								<link
+									itemprop="dayOfWeek"
+									href="http://purl.org/goodrelations/v1#Thursday"
+								/>Je réponds au téléphone du lundi au vendredi
+								de
+								<time itemprop="opens" content="16:00:00">
+									10h00</time
+								>
+								à
+								<time itemprop="closes" content="21:00:00">
+									19h00</time
+								>
+							</div>
+						</section>
+					</div>
 					<p>
 						N’hésitez pas à m’écrire ! Je vous répondrais en moins
 						de 24 heures
 					</p>
+
 					<form action="" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom" />
